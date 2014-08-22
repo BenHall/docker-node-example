@@ -1,9 +1,9 @@
 # Deploy Node App to Docker
 
-MAINTAINER Ben Hall <Ben@BenHall.me.uk>
-
 # Pull baes image
 FROM dockerfile/nodejs
+
+MAINTAINER Ben Hall <Ben@BenHall.me.uk>
 
 # http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/
 # use changes to package.json to force Docker not to use the cache
