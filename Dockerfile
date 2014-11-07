@@ -15,6 +15,8 @@ RUN mkdir -p /opt/app && cp -a /tmp/node_modules /opt/app
 WORKDIR /opt/app
 COPY . /opt/app
 
+ENV NODE_ENV production
+
 EXPOSE 3000
 
 CMD ["./bin/www"]
