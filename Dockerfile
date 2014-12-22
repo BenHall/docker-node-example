@@ -1,7 +1,7 @@
 # Deploy Node App to Docker
 
-# Pull baes image
-FROM dockerfile/nodejs
+# Pull base image
+FROM dockerfile/nodejs:latest
 
 MAINTAINER Ben Hall <Ben@BenHall.me.uk>
 
